@@ -1,0 +1,197 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+}
+
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  transform: rotate(25deg);
+  position: absolute;
+  right: 24%;
+  width: 23%;
+}
+
+/* Section Features */
+#features {
+  padding: 7% 10%;
+
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 2%;
+}
+
+.icon {
+  color: #ef8172;
+  font-size: 2.5rem;
+  padding: 15px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.features-msg {
+  padding: 0 20% 10%;
+}
+
+/* Testimonial Section */
+#testimonials {
+
+  background-color: #ef8172;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-text {
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-text {
+  font-size: 3rem;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call To Action */
+
+#cta {
+  padding: 5% 22%;
+
+}
+.cta-heading {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+
+}
+
+/* Footer section */
+#footer {
+  padding: 7% 15%;
+}
+
+.footer-FA-icon {
+  padding:16px 9px;
+}
+
+#footer p {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Responsive Tablet screen */
+@media (max-width: 990px) {
+  h2 {
+    font-size: 2rem;
+
+  }
+  .title-text {
+    text-align: center;
+  }
+
+  .title-image {
+  position: static;
+  width: 45%;
+  transform: none;
+  margin: 10% 0;
+  }
+
+  #features {
+    position: static;
+    z-index: 0;
+  }
+
+}
